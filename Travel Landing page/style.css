@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient( 180deg , #fff,#446666);
+    height: 100vh;
+    width: 100%;
+   
+}
+.container{
+   max-width: 900px;
+   background-color: #fff;
+   margin: auto;
+   height: 550px;
+   margin-top: 50px;
+   box-shadow: 0 0 10px #fff;
+   border-radius: 20px ;
+   -webkit-border-radius: 20px ;
+   -moz-border-radius: 20px ;
+   -ms-border-radius: 20px ;
+   -o-border-radius: 20px ;
+}
+.img{
+    border-radius: 20px;
+    background: url(second.jpg);
+    height: 60vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+    color: #fff;
+  
+}
+.nav .logo h1{
+    text-transform: uppercase;
+    margin-top: 20px;
+   
+}
+.img .list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin-top: 20px;
+   
+}
+.img .list .item{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+.main-heading{
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+   margin-top: 20px;
+}
+.content p{
+    padding: 0 5%;
+    margin-top: 40px;
+    font-size: 20px;
+    color: #fff;
+}
+.table{
+    display: flex;
+    padding: 0 5%;
+    margin-top: 40px;
+}
+.table input{
+    height: 40px;
+    width: 170px;
+    border: none;
+    outline: none;
+    padding: 10px;
+
+}
+.table .btn{
+    height: 40px;
+    width: 130px;
+    background-color: rgb(206, 206, 79);
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+.cards {
+    display: flex;
+    align-items: center;
+}
+.container h3{
+    text-align: center;
+    margin-top: 10px;
+    text-transform: uppercase;
+    /* font-weight: bolder; */
+}
+.cards .card{
+    height: 130px;
+    width: 300px;
+    margin-top: 5px;
+    padding: 0 5%;
+}

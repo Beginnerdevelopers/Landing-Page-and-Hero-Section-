@@ -1,0 +1,27 @@
+Fonts used in this design:
+
+Font: Montserrat
+Author: Julieta Ulanovsky
+Url: http://www.fontsquirrel.com/fonts/montserrat
+
+color : #001919 : #002D30
+btnsColors : #B38057
+
+
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+
+  <box-icon name='plus-medical' color='#fff' ></box-icon>
+
+
+  <box-icon name='instagram' type='logo' color='#fff' ></box-icon>
+
+                <box-icon name='twitter' type='logo' color='#fff' ></box-icon>
+
+                <box-icon name='facebook' type='logo' color='#fff' ></box-icon>
+
+<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>

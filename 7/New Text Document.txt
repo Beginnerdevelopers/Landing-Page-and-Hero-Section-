@@ -1,0 +1,46 @@
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+
+
+
+    <i class="bx bx-lock icon"></i>
+
+
+
+
+
+ <i class="bx bxl-facebook icon"></i>
+    <i class="bx bxl-instagram icon"></i>
+    <i class="bx bxl-youtube icon"></i>
+
+
+   <i class="bx bx-share icon"></i>
+
+
+
+     <i class='bx bx-menu'></i> 
+
+
+
+  <i class='bx bx-rewind icon'></i> 
+               <i class='bx bx-play icon'></i>
+            <i class='bx bx-fast-forward icon'></i>
+
+
+
+
+  <i class='bx bx-play icon'></i>
+            <i class='bx bx-fast-forward icon'></i>

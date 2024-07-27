@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(90deg, #1A134C,#3D1E5E);
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+.container{
+    min-width: 800px;
+    background: linear-gradient(90deg, #3D1E5E, #472C84 );
+    padding-inline: 3%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.container nav , .container nav .list, .container nav .login h3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    font-style: italic;
+}
+.container nav .list {
+    gap: 30px;
+}
+.container nav .login h3{
+    gap: 20px;
+}
+.container nav .list li{
+    list-style: none;
+    cursor: pointer;
+    position: relative;
+}
+.container nav .list .item2{
+    border-bottom: 2px solid red;
+    padding: 3px;
+}
+.hero{
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr;
+    color: #fff;
+}
+.hero .leftside h1{
+ font-size: 35px;
+ line-height: 70px;
+}
+.hero .leftside p{
+    line-height: 20px;
+    color: #bababa;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.btn button{
+    height: 30px;
+    width: 180px;
+    margin-block-start: 50px;
+    border-radius: 30px;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #b018b0;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.btn :nth-child(1){
+    background-color: #b018b0;
+}
+.hero .rightside img{
+    height: 100%;
+    width: 100%;
+}

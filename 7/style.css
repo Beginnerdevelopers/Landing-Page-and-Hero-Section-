@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(180deg, #d1d1d1, gray);
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+.container{
+    min-width: 800px;
+    height: 500px;
+    background: #000;
+    border-radius: 20px;
+    border: 5px solid #fff;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+
+    overflow: hidden;
+}
+.container .content{
+    display: flex;
+}
+.left-side{
+    background-image: url("./portrait-woman-wearing-white-fencing-costume-black.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40%;
+    background-color: gray;
+    height: 500px;
+    position: relative;
+    margin-inline-start: 50px;
+}
+.icons{
+    position: absolute;
+    left: -10%;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 500px;
+    color: #fff;
+}
+.icons .icon-one{
+    margin-block-start: 30px;
+}
+.icons .icon-three{
+    margin-block-end: 30px;
+}
+.icons .icon-two{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.icons .icon-one i , .icon-three i{
+    color: #3700ff;
+    font-size: 20px;
+}
+.icons .icon-two i{
+    background-color: gray;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    color: #000;
+    font-size: 20px;
+    padding: 5px;
+    margin-block-start: 10px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.right-side{
+    width: 60%;
+    background-color: #000;
+    position: relative;
+}
+.list{
+    font-family: "Montserrat",sans-serif;
+    margin-block-start: 30px;
+    color: #bdbdbd;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    padding-inline: 5%;
+}
+.list li{
+    list-style: none;
+}
+.list i{
+    color: #3700ff;
+    font-size: 20px;
+}
+.right-side-content{
+    position: absolute;
+    text-align: end;
+    color: white;
+    padding-inline: 5%;
+    margin-block-start: 70px;
+}
+.right-side-content h1{
+    font-family: "Cinzel Decorative";
+    letter-spacing: 5px;
+    font-size: 50px;
+    line-height: 100px;
+    color: #fff;
+}
+.right-side-content h1 span{
+    -webkit-text-stroke:3px #3700ff;
+    /* text-stroke:2px blue; */
+    color: #000;
+    font-size: 55px;
+}
+.right-side-content p{
+    color: #bdbdbd;
+}
+.right-side-content .btns{
+    padding: 20px;
+}
+.right-side-content button{
+    font-family: "Montserrat",sans-serif;
+    font-weight: 800;
+    margin-block-start: 10px;
+    height: 35px;
+    width: 120px;
+    outline: none;
+    border: none;
+
+}
+.right-side-content .btns #btntwo{
+    background-color: #000;
+    border: 2px solid #fff;
+    color: #967bf6;
+}
+.cards{
+    position: absolute;
+    bottom: 5%;
+    right: -10%;
+    display: flex;
+    gap: -50px;
+}
+.cards .card img{
+    height: 100px;
+    width: 190px;
+    box-shadow: 0 0 10px #000;
+}
+.cardone , .cardtwo{
+    position: relative;
+}
+.cardone .card-icons{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+.cardone .card-icons i{
+    background-color: #967bf6;
+    font-size: 28px;
+    border-radius: 50%;
+    color: #6a45f2;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.cardtwo .card-icons{
+    position: absolute;
+    left: 30%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    -webkit-transform: translate(-50% , -50%);
+    -moz-transform: translate(-50% , -50%);
+    -ms-transform: translate(-50% , -50%);
+    -o-transform: translate(-50% , -50%);
+}
+.cardtwo .card-icons i{
+    background-color: #967bf6;
+    font-size: 28px;
+    border-radius: 50%;
+    color: #6a45f2;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
